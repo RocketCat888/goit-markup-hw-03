@@ -174,7 +174,8 @@ body {
   background-color: #404bbf;
 }
 
-.second-page-section {
+
+/* .second-page-section {
     padding: 120px 0;
 }
 .section-benefits-list {
@@ -185,7 +186,8 @@ body {
 }
 .section-benefits-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
-}
+} */
+ 
 
 .section-benefits {
   margin-bottom: 8px;
