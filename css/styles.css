@@ -180,12 +180,13 @@ body {
 .section-benefits-list {
   display: flex;
 }
+.section-benefits-list:not(:last-child) {
+  margin-right: 24px;
+}
 .section-benefits-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.section-benefits-item:not(:last-child) {
-  margin-right: 24px;
-}
+
 .section-benefits {
   margin-bottom: 8px;
   font-weight: 500;
