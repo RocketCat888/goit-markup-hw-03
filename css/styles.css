@@ -234,7 +234,8 @@ body {
 .section-benefits {
   padding: 120px 0;
 }
-.section-team-list {
+
+.section-benefits-list {
   display: flex;
 }
 .team-name-profession {
