@@ -185,11 +185,9 @@ body {
 }
 
 
-
-
-
-
-
+.visibility-hidden {
+  visibility: hidden;
+}
 .section-benefits {
   padding: 120px 0;
 }
@@ -197,7 +195,9 @@ body {
   display: flex;
   gap: 24px;
 }
-
+.section-benefits-item {
+        flex-basis: calc((100% - 3 * 24px) / 4);
+    }
 .section-benefits-title {
   margin-bottom: 8px;
   font-weight: 500;
