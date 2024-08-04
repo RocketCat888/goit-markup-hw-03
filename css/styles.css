@@ -184,9 +184,20 @@ body {
   background-color: #404bbf;
 }
 
+
+
+
+
+
+
+.section-benefits {
+  padding: 120px 0;
+}
 .section-benefits-list {
   display: flex;
+  gap: 24px;
 }
+
 .section-benefits-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -231,11 +242,7 @@ body {
 .section-team-item:not(:last-child) {
   margin-right: 24px;
 }
-.section-benefits {
-  padding: 120px 0;
-}
-
-.section-benefits-list {
+.section-team-list {
   display: flex;
 }
 .team-name-profession {
