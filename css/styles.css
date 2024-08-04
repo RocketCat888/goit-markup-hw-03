@@ -34,16 +34,13 @@ body {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   
 }
 .page-header {
-  /* max-width: 1128px;
-  min-height: 72px; */
-  margin-left: auto;
-  margin-right: auto;
   border-bottom: 1px solid #e7e9fc;
   }
   .page-header-container {
@@ -83,9 +80,7 @@ body {
 
 .menu {
   display: flex;
-}
-.menu-item:not(:last-child) {
-  margin-right: 40px;
+  gap: 40px;
 }
 .menu-link {
     font-weight: 500;
@@ -192,6 +187,10 @@ body {
 
 .visibility-hidden {
   visibility: hidden;
+}
+
+.visibility-none {
+  display: none;
 }
 .section-benefits {
   padding: 120px 0;
