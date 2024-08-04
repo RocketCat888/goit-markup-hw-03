@@ -34,8 +34,10 @@ body {
 
 .container {
   max-width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .page-header {
   /* max-width: 1128px;
@@ -55,6 +57,9 @@ body {
   }
 .page-navigation {
   display: flex;
+}
+.page-navigation .contact {
+  align-items: center;
 }
 
 .page-logo {
