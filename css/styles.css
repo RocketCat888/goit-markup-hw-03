@@ -49,10 +49,10 @@ body {
   }
   .page-header .container {
     justify-content: space-around;
+    padding-top: 24pxv;
   }
 .page-navigation {
   display: flex;
-  align-items: center;
 }
 
 .page-logo {
@@ -182,9 +182,9 @@ body {
   background-color: #404bbf;
 }
 
-.section-benefits {
+/* .section-benefits {
   padding: 120px 0;
-}
+} */
 .section-benefits-list {
   display: flex;
 }
@@ -193,7 +193,7 @@ body {
 }
 .section-benefits-item:not(:last-child) {
   margin-right: 24px;
-}
+} 
 .section-benefits-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -201,6 +201,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  /* visibility: hidden; */
 }
 .section-benefits-paragraph {
   font-weight: 400;
