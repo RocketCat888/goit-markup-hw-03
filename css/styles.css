@@ -184,7 +184,9 @@ body {
   background-color: #404bbf;
 }
 
-
+.section-benefits-list {
+  display: flex;
+}
 .section-benefits-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -229,7 +231,9 @@ body {
 .section-team-item:not(:last-child) {
   margin-right: 24px;
 }
-
+.section-benefits {
+  padding: 120px 0;
+}
 .section-team-list {
   display: flex;
 }
