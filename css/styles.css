@@ -38,21 +38,26 @@ body {
   padding: 0 15px;
 }
 .page-header {
-  max-width: 1128px;
-  min-height: 72px;
+  /* max-width: 1128px;
+  min-height: 72px; */
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #e7e9fc;
   }
   .page-header-container {
     display: flex;
+    padding-top: 24px;
+    
   }
   .page-header .container {
     justify-content: space-around;
-    padding-top: 24pxv;
+    
   }
 .page-navigation {
   display: flex;
+}
+.page-navigation .contact-list {
+  align-items: center;
 }
 
 .page-logo {
@@ -182,9 +187,9 @@ body {
   background-color: #404bbf;
 }
 
-/* .section-benefits {
+.section-benefits-container {
   padding: 120px 0;
-} */
+} 
 .section-benefits-list {
   display: flex;
 }
