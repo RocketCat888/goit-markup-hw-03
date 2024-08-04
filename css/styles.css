@@ -38,7 +38,11 @@ body {
   padding: 0 15px;
 }
 .page-header {
-    border-bottom: 1px solid #e7e9fc;
+  max-width: 1128px;
+  min-height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #e7e9fc;
   }
   .page-header-container {
     display: flex;
@@ -105,6 +109,7 @@ body {
 }
 
 
+
 .contact-list-item {
   font-weight: 400;
   font-size: 16px;
@@ -124,9 +129,9 @@ body {
 
 
 
-
 .first-page-section {
   max-width: 1440px;
+  min-height: 600px;
   margin-left: auto;
   margin-right: auto;
   padding: 188px 0;
@@ -141,7 +146,10 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   color: #ffffff;
 }
 .page-section-button {
@@ -174,22 +182,19 @@ body {
   background-color: #404bbf;
 }
 
-
-/* .second-page-section {
-    padding: 120px 0;
+.section-benefits {
+  padding: 120px 0;
 }
 .section-benefits-list {
   display: flex;
 }
-.section-benefits-list:not(:last-child) {
+.section-benefits-item {
+  flex-basis: calc((100% - 3 * 24px) / 4)
+}
+.section-benefits-item:not(:last-child) {
   margin-right: 24px;
 }
-.section-benefits-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-} */
- 
-
-.section-benefits {
+.section-benefits-title {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -197,7 +202,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-benefits-p {
+.section-benefits-paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -208,6 +213,10 @@ body {
 
 
 .section-team {
+  max-width: 1440px;
+  min-height: 734px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 120px 0 120px 0;
   background-color: #f4f4fd;
 }
@@ -305,11 +314,11 @@ body {
 
 
 
-
-
-
-
 .footer {
+  max-width: 1440px;
+  min-height: 312px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 100px 0;
   background: #2e2f42;
 }
@@ -319,6 +328,7 @@ body {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 8px;
   color: #f4f4fd;
 }
 .footer-text {
